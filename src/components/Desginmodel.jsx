@@ -16,7 +16,7 @@ const Desginmodel = () => {
         </p>
       </div>
       <div className="border-hsla relative mb-7 h-96 w-full overflowh-hidden rounded-md md:h-[65vh]">
-        <BentoCard
+        {/* <BentoCard
           src="Videos/features-1.mp4"
           title={
             <>
@@ -25,7 +25,7 @@ const Desginmodel = () => {
           }
           description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
           isComingSoon
-        />
+        /> */}
       </div>
     </section>
   );
