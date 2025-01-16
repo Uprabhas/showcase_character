@@ -85,7 +85,7 @@ const Hero = () => {
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {/* https://uiverse.io/G4b413l/tidy-walrus-92 */}
-      {/* {isLoading && (
+      {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
           <div className="three-body">
             <div className="three-body__dot"></div>
@@ -93,7 +93,7 @@ const Hero = () => {
             <div className="three-body__dot"></div>
           </div>
         </div>
-      )} */}
+      )}
       <div
         id="video-frame"
         className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
